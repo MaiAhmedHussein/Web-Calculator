@@ -1,0 +1,57 @@
+
+  <div>
+ 
+    <h1 class="text-center">CALCULATOR</h1>
+ 
+    <br>
+    <br>
+
+    <div class="form-control" type="text"><p style="color:rgb(104, 94, 94)">{{input}}</p></div>
+        
+    <div class="form-control" type="text">{{input4}}</div>
+
+    <div class=frame>
+      
+      <button class="button2" (click)="pressNum('%')">%</button>
+      <button class="button1" (click)="pressNum('CE')">CE</button>
+      <button class="button1" (click)="pressNum('C')">C</button>
+      <button class="button1" (click)="pressNum('del')"><font size=1>⌫</font></button>
+
+      <br>
+  
+      <button class="button2" (click)="pressNum('1/x')"><font size=2>&#8543;</font><font size=1>x</font></button>
+      <button class="button2" (click)="pressNum('x^2')">x&#178;</button>
+      <button class="button2" (click)="pressNum('x^0.5')"><font size=2>&#8730;x</font></button>
+      <button class="button2" (click)="pressNum('÷')">÷</button>
+
+      <br>
+
+      <button class="button3" (click)="pressNum('7')">7</button>
+      <button class="button3" (click)="pressNum('8')">8</button>
+      <button class="button3" (click)="pressNum('9')">9</button>
+      <button class="button2" (click)="pressNum('x')">x</button>
+
+      <br>
+
+      <button class="button3" (click)="pressNum('4')">4</button>
+      <button class="button3" (click)="pressNum('5')">5</button>
+      <button class="button3" (click)="pressNum('6')">6</button>
+      <button class="button2" (click)="pressNum('-')">-</button>
+
+      <br>
+
+      <button class="button3" (click)="pressNum('1')">1</button>
+      <button class="button3" (click)="pressNum('2')">2</button>
+      <button class="button3" (click)="pressNum('3')">3</button>
+      <button class="button2" (click)="pressNum('+')">+</button>
+      
+      <br>
+
+      <button class="button2" (click)="pressNum('+/-')"> <strong>⁺⁄₋</strong> </button>
+      <button class="button3" (click)="pressNum('0')">0</button>
+      <button class="button3" (click)="pressNum('.')">.</button>
+      <button class="button4" (click)="pressNum('=')">=</button>
+      
+     </div>
+
+  </div>

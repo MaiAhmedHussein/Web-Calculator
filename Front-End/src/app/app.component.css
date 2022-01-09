@@ -1,0 +1,105 @@
+
+.text-center{
+
+    text-align: center;
+    font-size: 600;
+
+}
+
+.frame {
+    
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    position: center;
+    
+}
+
+.button1 {
+    transition-duration: 0.4s;
+}
+  
+.button1:hover {
+    background-color: #103b72; 
+    color: white;
+}
+
+.button1{
+
+    background-color:rgb(52, 129, 216);
+    padding:16px;
+    border-radius: 8px;
+    width: 60px;
+    text-align: center;
+
+}
+
+.button2 {
+    transition-duration: 0.4s;
+}
+.button2:hover {
+    background-color: #f08408; 
+    color: white;
+}
+
+.button2{
+
+    background-color:rgb(238, 226, 57);
+    padding: 16px;
+    border-radius: 8px;
+    width: 60px;
+    text-align: center;
+    
+}
+
+.button3 {
+    transition-duration: 0.4s;
+}
+.button3:hover {
+    background-color: #720e72; 
+    color: white;
+}
+
+.button3{
+
+    background-color:rgb(253, 213, 247);
+    padding:16px;
+    border-radius: 8px;
+    width: 60px;
+    text-align: center;
+
+}
+
+.button4 {
+    transition-duration: 0.4s;
+}
+.button4:hover {
+    background-color: #103b72; 
+    color: white;
+}
+
+.button4{
+
+    background-color:rgb(52, 129, 216);
+    padding:16px;
+    border-radius: 8px;
+    width: 60px;
+    text-align: center;
+
+}
+
+ 
+
+.form-control{
+
+    background-color: #fcfcfc;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px 28px ;
+    width: 15%;size: fixed;
+    height: 14px;
+    text-align: right;
+
+}
+
